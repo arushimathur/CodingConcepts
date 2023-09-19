@@ -1,0 +1,5 @@
+ while(val>0)
+            {
+                count += val & 1;
+                val >>= 1;
+            }
